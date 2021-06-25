@@ -2,7 +2,7 @@
 #### A site about a place where customers can order pizzaas at the comfort of ther home, 25 6 2021.
 #### By **MAXMILLAN KUYA**
 ## Description
-A site about 
+A site about pizza place where people can order pizzaa at the comfort of their homes. The pizzas have different prices according to the sizes, they also have different crusts and toppings too. There is also delivery for customers who can't be able to reach to our shops.
 ## Setup/Installation Requirements
 * $ sudo apt-get update
 * $ sudo apt-get install code
