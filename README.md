@@ -1,5 +1,5 @@
 # PIZZA PLACE
-#### A site about a place where customers can order pizzaas at the comfort of ther home, 25 6 2021
+#### A site about a place where customers can order pizzaas at the comfort of ther home, 25 6 2021.
 #### By **MAXMILLAN KUYA**
 ## Description
 A site about 
@@ -15,8 +15,8 @@ No any bugs
 * CSS
 * JavaScript
 ## Support and contact details
-kuyamaxmillan@gmail.com
-moringaschool
+*kuyamaxmillan@gmail.com
+*moringaschool
 ### License
 *license under the [MIT LICENSE] (license.txt)*
 Copyright (c) {2021} **Maxmillan Kuya**
