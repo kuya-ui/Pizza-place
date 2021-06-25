@@ -10,6 +10,9 @@ A site about pizza place where people can order pizzaa at the comfort of their h
 * $ sudo apt-get install npm
 ## Known Bugs
 No any bugs
+##
+BDD
+The site is about a pizzaa place where people make there orders at their comfort. It contains size, crust, toppings, orders and how to get deliveries and also prices after ordering. We also us javascript to show the alert.
 ## Technologies Used
 * HTML
 * CSS
