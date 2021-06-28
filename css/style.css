@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-image: url("/images/nrd-1ZOZyhfSvfs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.cut{
+    height:150px;
+    width:300px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:whitesmoke;
+    box-shadow: 2px 2px 5px;
+}
