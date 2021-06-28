@@ -1,4 +1,4 @@
-# PIZZA PLACE
+# NINI'S PIZZA PLACE
 #### A site about a place where customers can order pizzaas at the comfort of ther home, 25 6 2021.
 #### By **MAXMILLAN KUYA**
 ## Description
