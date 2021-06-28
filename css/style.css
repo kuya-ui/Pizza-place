@@ -67,3 +67,21 @@
 .container{
     background-color: yellow;
 }
+.contacts{
+    text-align: center;
+    padding: 10px;
+    box-shadow: 3px 3px 6spx;
+    background-color: whitesmoke;
+    font-style: oblique;
+    font-weight: 20px;
+    margin: 15px;
+}
+.nic{
+    text-align: center;
+    padding: 10px;
+    background-image: url("/images/amirali-mirhashemian-XtLPfib7OuM-unsplash (1).jpg");
+    font-style: oblique;
+    font-weight: 20px;
+    background-size: cover;
+    background-position: center;
+}
