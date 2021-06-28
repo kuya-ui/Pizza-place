@@ -85,3 +85,13 @@
     background-size: cover;
     background-position: center;
 }
+.footer{
+    background-color: black;
+    text-align: center;
+    padding: 100px;
+    margin: 10px;
+    height:40vh
+}
+.footer p{
+    color: white;
+}
