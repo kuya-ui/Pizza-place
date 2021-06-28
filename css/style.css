@@ -1,23 +1,32 @@
 *{
     margin: 0;
     padding: 0;
+/* }
+.menu{
+    background-image: url("/images/nrd-1ZOZyhfSvfs-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px; */
 }
 .menu{
     background-image: url("/images/nrd-1ZOZyhfSvfs-unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
+    text-align: center;
+    color: yellowgreen;
+    font-size: 40px;
+    padding: 100px;
 }
-.cut p{
-    height:150px;
-    width:300px;
-    padding: 25px;
+.power h1{
+    font-size: 35px;
+    padding: 10px;
+    color: red;
+    padding: 50px;
+}
+.power p{
+    color: red;
     font-size: 20px;
-    font-weight: bold;
-    color: yellow;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color:whitesmoke;
-    box-shadow: 2px 2px 5px;
 }
 .tall{
     text-align: center;
@@ -92,6 +101,6 @@
     margin: 10px;
     height:40vh
 }
-.footer p{
-    color: white;
+.jj{
+    color
 }
