@@ -18,8 +18,8 @@ The site is about a pizzaa place where people make there orders at their comfort
 * CSS
 * JavaScript
 ## Support and contact details
-*kuyamaxmillan@gmail.com
-*moringaschool
+* kuyamaxmillan@gmail.com
+* moringaschool
 ### License
 *license under the [MIT LICENSE] (license.txt)*
 Copyright (c) {2021} **Maxmillan Kuya**
