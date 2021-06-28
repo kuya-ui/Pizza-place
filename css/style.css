@@ -36,3 +36,34 @@
     font-style: oblique;
     font-weight: 20px;
 }
+.top{
+    background-image: url("/images/miha-rekar-kWEkH7j3KNI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.menu-flex{
+    display: flex;
+}
+.star{
+    justify-content: space-evenly;
+}
+.custom{
+    margin-left: 20px;
+}
+.moon{
+    justify-content: space-evenly;
+}
+.call{
+    margin-left: 30rem;
+}
+.submit{
+    margin-left: 5rem;
+}
+.top{
+    position: relative;
+    border: 1px solid transparent;
+}
+.container{
+    background-color: yellow;
+}
