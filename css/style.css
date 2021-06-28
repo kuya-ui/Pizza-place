@@ -1,12 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-/* }
-.menu{
-    background-image: url("/images/nrd-1ZOZyhfSvfs-unsplash.jpg");
-    background-size: cover;
-    background-position: center;
-    height: 600px; */
 }
 .menu{
     background-image: url("/images/nrd-1ZOZyhfSvfs-unsplash.jpg");
@@ -17,16 +11,6 @@
     color: yellowgreen;
     font-size: 40px;
     padding: 100px;
-}
-.power h1{
-    font-size: 35px;
-    padding: 10px;
-    color: red;
-    padding: 50px;
-}
-.power p{
-    color: red;
-    font-size: 20px;
 }
 .tall{
     text-align: center;
@@ -101,6 +85,6 @@
     margin: 10px;
     height:40vh
 }
-.jj{
-    color
+.uj{
+    color: white;
 }
