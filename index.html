@@ -29,10 +29,10 @@
     <div class="container fff">
         <div class="top">
             <div class=" star menu-flex">
-                <form class="menu-flex">
+                <!-- <form class="menu-flex"> -->
                     <div class="uuu custom">
                         <label for=sizes> Your Size</label><br>
-                        <Select id="size" name="crustlist" form="crustform">
+                        <Select id="size" name="size-list" form="size-form">
                             <option value="small">Small @550</option>
                             <option value="medium">Medium @750</option>
                             <option value="large">Large @1200</option>
@@ -40,15 +40,15 @@
                     </div><br>
                     <div class="mm custom">
                         <label for="crusts">Crust:</label><br>
-                        <select id="crust" name="crustlist" form="crustform">
-                            <option value="cripsy">Cripsy @150</option>
+                        <select id="crust" name="crust-list" form="crust-form">
+                            <option value="crispy">Crispy @150</option>
                             <option value="stuffed">Stuffed @100</option>
-                            <option value="glutten-free">Glutten-free @100</option>
+                            <option value="gluten-free">Gluten-free @100</option>
                       </select>
                     </div><br>
                     <div class="tt custom">
                         <label for="topping">Toppings:</label><br>
-                        <select id="toppings" name="toppinglist" form="toppingform">
+                        <select id="toppings" name="topping-list" form="topping-form">
                             <option value="pineapple">Pineapple @250</option>
                             <option value="mushroom">Mushroom @200</option>
                             <option value="avocado">Avocado @50</option>
@@ -56,14 +56,14 @@
                             <option value="italian">Italian @250</option>
                       </select>
                     </div>
-                </form>
+                <!-- </form> -->
             </div>
             <div class="moon menu-flex">
-                <form class="menu-flex">
+                <!-- <form class="menu-flex"> -->
                     <div class="xx custom">
                         <label for="flavor">Flavors:</label><br>
-                        <select id="flavors" name="flavorlist" form="flavorform">
-                            <option value="vege">pepperoni @300</option>
+                        <select id="flavors" name="flavor-list" form="flavor-form" >
+                            <option value="pepperoni">pepperoni @300</option>
                             <option value="pine">Pineapple @250</option>
                             <option value="pot">Chicken</option>
                             <option value="mus">Beef</option>
@@ -98,13 +98,13 @@
                         <label for="num">number of pizza:</label><br>
                         <input type="number" id="number" name="numbers"><br><br>
                     </div>
-                </form>
+                <!-- </form> -->
             </div>
             <div class="call">
                 <!-- <label for="order">Total order:</label><br>
                 <input type="number" id="order1" name="order"><br><br> -->
                 <div class="sub">
-                    <input type="submit" class="submit" id="submit">
+                    <input type="submit" class="submit" id="order">
                 </div>
             </div>
         </div>
