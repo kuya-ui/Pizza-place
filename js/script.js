@@ -1,96 +1,99 @@
-function Pizza(flavors,crust,size,toppings,order){
-    this.flavors = flavors;
-    this.crust = crust;
-    this.size = size;
-    this.toppings = toppings;
-    this.order = order;
-    console.log(flavor,crust,size,toppings,orders);
-
+var price, crustPrice, total, tPrice, charge;
+var delivery;
+function Pizza(flavor, size, crust, toppings, orders) {
+    this.Flavor = flavor;
+    this.Size = size;
+    this.Crust = crust;
+    this.Toppings = toppings;
+    this.Orders = orders;
 }
-$(document).ready(function(){
-    $("#order").click(function(event){
-        let pizza_flavor = $("#flavor option:selected").val();
-        let moon_size = $("#size option:selected").val();
-        let star_crust = $("#crust option:selected").val();
-        let sun_toppings = $("#toppings option:selected").val();
-
-        switch(pizza_flavor){
-            case "0":
-                flavor_price =0;
-            break;
-            case "pepperoni":
-                flavor_price = 300;
-            break;
-                case "pine apple":
-                flavor_price = 250;
+function Delivery(number, location) {
+    this.Number = number;
+    this.Location = location;
+}
+Delivery.prototype.info = function() {
+    return this.Number + "  " + this.Location;
+}
+Pizza.prototype.customerChoice = function() {
+    return this.Flavor + " " + this.Size + " " + this.Crust + " " + this.Toppings + " " + this.Orders;
+}
+$(document).ready(function() {
+    $("button#btn").click(function(y) {
+        y.preventDefault();
+        var getFlavor = $("#flavor option:selected").val();
+        var getSize = $("#size option:selected").val();
+        var getCrust = $("#crust option:selected").val();
+        var getToppings = $("#toppings option:selected").val();
+        var getOrders = $("input#quantity").val();
+        switch (getSize) {
+            case "small":
+                price = 300;
+                tPrice = 150;
+                console.log(price);
+                console.log(tPrice);
                 break;
-                case "chicken":
-                flavor_price =250;
+            case "medium":
+                price = 600;
+                tPrice = 300;
+                console.log(price);
+                console.log(tPrice);
                 break;
-                case "beef":
-               flavor_price = 200;
-                default:
-            }
-        switch(moon_size){
-            case "0":
-              moon_price =0;
-            break;
             case "large":
-               moon_price = 1200;
-             break;
-             case "medium":
-               moon_price = 800;
-             break;
-             case "regular":
-               moon_price = 500;
-             default:
-           }
-           switch(star_crust){
-            case "0":
-              crust_price = 0;
-            break;
+                price = 1600;
+                tPrice = 650;
+                console.log(price);
+                console.log(tPrice);
+                break;
+            default:
+                alert("choose the correct size of your pizza")
+        }
+        switch (getCrust) {
             case "crispy":
-              crust_price = 150;
-             break;
-             case "stuffed":
-               crust_price = 100;
-             break;
-             case "gluten-free":
-               crust_price = 100;
-             default:
-           }
-           switch(sun_toppings){
-            case "0":
-              toppings_price =0;
-            break;
-            case "mushroom":
-               toppings_price = 200;
-             break;
-             case "avocado":
-               toppings_price = 50;
-             break;
-             case "italian":
-                toppings_price = 250;
-             break;
-              case "mexican":
-                toppings_price = 250;
-              default:
-           }
-           if((pizza_flavor == "0") && (moon_size == "0") && (star_crust == "0") && (sun_toppings == "0")){
-            console.log("nothing selected");
-            $("#order").show();
-            $("#pink").hide();
-            alert("Please select pizza size and crust");
-          }
-          else{
-            $("#order").hide();
-            $("#pink").fadeIn(2000);
-          }
-          var total = flavor_prise + moon_price  + flavor_price + toppings_price;
-           $("#blue").html($("#toppings option:selected").val());
-           $("#red").html( $("#size option:selected").val());
-           $("#black").html($("#crust option:selected").val());
-           $("#green").html($("#flavors option:selected").val());
-           $("#son").html(total);
+                crustPrice = 150;
+                console.log(crustPrice);
+                break;
+            case "gluttenfree":
+                CrustPrice = 200;
+                console.log(crustPrice);
+                break;
+            case "stuffed":
+                crustPrice = 345;
+                console.log(crustPrice);
+                break;
+            default:
+                alert("choose correct crust")
+        }
+        total = price + crustPrice + tPrice;
+        var newOrder = new Pizza(getFlavor, getSize, getCrust, getToppings, getOrders);
+        if (getOrders === 0) {
+            charge = (getOrders + 1) * total;
+        } else if (getOrders < 0) {
+            alert("enter a positive number for your orders")
+        } else {
+            charge = getOrders * total;
+        }
+        $("#looks").append(newOrder.Flavor);
+        $("#looksy").append(newOrder.Size);
+        $("#look").append(newOrder.Crust);
+        $("#loo").append(newOrder.Toppings);
+        $("#lo").append(newOrder.Orders);
+        $("#lobs").append(charge);
+        $("input#quantity").val("");
+    });
+});
+$(document).ready(function() {
+    $("button#lit").click(function(y) {
+        y.preventDefault();
+        $("#cards").show();
+    });
+});
+$(document).ready(function() {
+    $("button#checkout").click(function(y) {
+        y.preventDefault();
+        $("#yes").show();
+        var contact = $("input#contact").val();
+        var location = $("input#place").val();
+        delivery = charge + 200;
+        alert(`hi ${contact} your order below will be delivered to ${location}`)
     });
 });
