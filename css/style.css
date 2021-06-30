@@ -3,7 +3,7 @@
     padding: 0;
 }
 .menu {
-    background-image: url("/images/nrd-1ZOZyhfSvfs-unsplash.jpg");
+    background-image: url("images/nrd-1ZOZyhfSvfs-unsplash.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -30,7 +30,7 @@
     font-weight: 20px;
 }
 .top {
-    background-image: url("/images/miha-rekar-kWEkH7j3KNI-unsplash.jpg");
+    background-image: url("images/miha-rekar-kWEkH7j3KNI-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -58,7 +58,7 @@
     border: 1px solid transparent;
 }
 .container {
-    background-image: url("/images/miha-rekar-kWEkH7j3KNI-unsplash.jpg");
+    background-image: url("images/miha-rekar-kWEkH7j3KNI-unsplash.jpg");
     background-size: cover;
     background-position: allign-center;
 }
@@ -74,7 +74,7 @@
 .nic {
     text-align: center;
     padding: 10px;
-    background-image: url("/images/amirali-mirhashemian-XtLPfib7OuM-unsplash (1).jpg");
+    background-image: url("images/amirali-mirhashemian-XtLPfib7OuM-unsplash (1).jpg");
     font-style: oblique;
     font-weight: 20px;
     background-size: cover;
